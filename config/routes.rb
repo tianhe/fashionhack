@@ -4,6 +4,7 @@ Stckmrkt::Application.routes.draw do
 
   post "stck_it/create"
   get "stck_it/index"
+  get "stck_it/present"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

@@ -2,7 +2,7 @@ Stckmrkt::Application.routes.draw do
   post "user/create"
   get "user/new"
 
-  post "stck_it/create"
+  get "stck_it/create"
   get "stck_it/index"
   get "stck_it/present"
 

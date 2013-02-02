@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130202201201) do
+ActiveRecord::Schema.define(:version => 20130202213740) do
 
   create_table "stck_its", :force => true do |t|
     t.integer  "user_id"
@@ -25,7 +25,7 @@ ActiveRecord::Schema.define(:version => 20130202201201) do
     t.string   "email"
     t.string   "name"
     t.integer  "zipcode"
-    t.integer  "phone"
+    t.string   "phone"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
